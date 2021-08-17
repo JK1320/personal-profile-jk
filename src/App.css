@@ -1,38 +1,136 @@
-.App {
+body {
+  background-color: beige;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  /* background-color: rgb(56, 55, 55); */
+  margin: 2%;
+  display: flex;
+  margin-top: 1%;
+}
+
+.quotes {
+  width: 70%;
+  height: 100px;
+}
+
+.header p {
+  font-size: 0.9rem;
+  text-align: center;
+  color: rgb(46, 1, 46);
+}
+
+.header-nav {
+  display: flex;
+  width: 50%;
+}
+
+.heading {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.heading:hover {
+  color: red;
+}
+
+.btn-nav {
+  width: 30%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn-nav button {
+  margin-right: 1%;
+  padding: 2%;
+  background-color: black;
   color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 20%;
+  box-shadow: 5px 7px rgb(73, 67, 67);
 }
 
-.App-link {
-  color: #61dafb;
+.btn-nav button:hover {
+  background-color: white;
+  color: red;
+  box-shadow: 5px 7px rgb(100, 98, 98);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.languages {
+  margin-left: 15%;
+  width: 70%;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  /* border: 5px solid blue; */
+  background-color: cadetblue;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+   /* display: flex; */
 }
+
+img {
+  width: 50%;
+}
+
+.languages:hover {
+  background-color:rgb(146, 240, 243);
+  color: rgb(147, 14, 180);
+}
+
+.lists {
+  list-style: none;
+  font-size: 30px;
+}
+
+ul li {
+  padding-right: 5%;
+}
+
+.about {
+  margin: 10%;
+}
+
+p {
+  font-size: 30px;
+}
+
+.projects {
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 15%;
+  width: 70%;
+  margin-bottom: 10%;
+  background-color: cadetblue;
+  color: white;
+  padding-bottom: 2%;
+  display: flex;
+}
+
+.projects:hover {
+  background-color:rgb(146, 240, 243);
+  /* color: rgb(147, 14, 180); */
+}
+
+.cards {
+  /* border: 2px solid white; */
+  width: 50%;
+  height: auto;
+  background-color: rgb(128, 120, 120);
+  margin: 2%;
+}
+
+.image {
+  width: 70%;
+}
+
+.projects-heading {
+  margin-left: 15%;
+  margin-top: 15%;
+  margin-bottom: 0;
+}
+
