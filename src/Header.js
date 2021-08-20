@@ -5,7 +5,7 @@ import quotes from './data/quotes';
 function Header({triggerHome, triggerLanguages, triggerProjects}) {
 const [currentQuote, setCurrentQuote] = useState("");
 
-const time = 3000;  
+const time = 10000;  
 useEffect(() => {
   setInterval(() => {
    setCurrentQuote(() => quotes[Math.floor(Math.random() * quotes.length)]);
