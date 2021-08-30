@@ -1,5 +1,5 @@
 body {
-  background-color: beige;
+  /* background-color: rgb(247, 247, 245); */
   width: 100%;
   margin: 0;
   padding: 0;
@@ -20,22 +20,23 @@ body {
 .header p {
   font-size: 0.9rem;
   text-align: center;
-  color: rgb(46, 1, 46);
+  color: rgb(12, 87, 226);
 }
 
 .header-nav {
   display: flex;
-  width: 50%;
+  /* background-color: rgb(41, 39, 39); */
 }
 
 .heading {
-  margin-top: 10%;
-  margin-left: 10%;
+  width: 70%;
+  color: rgb(3, 3, 3);
+  padding: 10%;
 }
 
-.heading:hover {
-  color: red;
-}
+/* .heading:hover {
+  color: rgb(129, 145, 233);
+} */
 
 .btn-nav {
   width: 30%;
@@ -55,82 +56,236 @@ body {
 
 .btn-nav button:hover {
   background-color: white;
-  color: red;
+  color: rgb(12, 12, 12);
   box-shadow: 5px 7px rgb(100, 98, 98);
 }
 
 .languages {
-  margin-left: 15%;
+  margin: auto;
   width: 70%;
-  text-align: center;
-  margin-top: 2%;
-  margin-bottom: 5%;
   /* border: 5px solid blue; */
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
   color: white;
-  padding-top: 5%;
-  padding-bottom: 5%;
-   /* display: flex; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skills {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-div {
+  border: 5px solid blue;
+  width: 30%;
+  transition: all 3s ease-in-out;
+}
+
+.skill-div:hover {
+  transform: rotateY(-180deg);
+}
+
+/* .skill-img {
+  display: inline;
+} */
+
+/* .skill-img:hover {
+  display: none;
+}
+
+.skill-name {
+  display: none;
+}
+
+.skill-name:hover {
+  display: inline;
+} */
+
+.container {
+  /* border: 2px solid green; */
+  width: 30%;
+  transition: all 3s ease-in-out;
+}
+
+.container:hover {
+  transform: rotateY(.5turn);
 }
 
 img {
-  width: 50%;
+  width: 100%;
+  height: auto;
 }
 
-.languages:hover {
+/* .languages:hover {
   background-color:rgb(146, 240, 243);
   color: rgb(147, 14, 180);
-}
-
+} */
+/* 
 .lists {
-  list-style: none;
   font-size: 30px;
-}
-
-ul li {
-  padding-right: 5%;
-}
+} */
 
 .about {
   margin: 10%;
 }
 
 p {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .projects {
-  text-align: center;
-  margin-top: 2%;
-  margin-left: 15%;
-  width: 70%;
+  /* align-items: center;
+  width: 90%; */
+  /* margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-bottom: 10%;
-  background-color: cadetblue;
+  background-color: cadetblue; 
   color: white;
   padding-bottom: 2%;
-  display: flex;
+  display: flex; */
 }
 
-.projects:hover {
+/* .projects:hover {
   background-color:rgb(146, 240, 243);
-  /* color: rgb(147, 14, 180); */
-}
+  color: rgb(147, 14, 180);
+} */
 
 .cards {
-  /* border: 2px solid white; */
-  width: 50%;
-  height: auto;
-  background-color: rgb(128, 120, 120);
+  /* border: 2px solid white; */ 
+  /* background-color: rgb(128, 120, 120); */
   margin: 2%;
 }
 
-.image {
+ .project-links {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  background-color: rgb(59, 57, 57);
   width: 70%;
+  margin: auto;
+} 
+
+.project-links a {
+  text-decoration: none;
+  color: rgb(136, 134, 131);
 }
 
-.projects-heading {
-  margin-left: 15%;
-  margin-top: 15%;
-  margin-bottom: 0;
+.project-links a:hover {
+  color: rgb(241, 225, 209);
 }
+
+h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.soft-skills-section {
+  margin-top: 10%;
+}
+
+/* ---------------------------- */
+
+/* Slideshow container */
+.slideshow-container {
+  margin: auto;
+  width: 70vw;
+  height: calc(100% - 20px);
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  /* background: #f3f3d4; */
+}
+
+/* Slides */
+.mySlides {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.6rem;
+  height: 93vh;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 5vw;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  margin: auto;
+  width: 20%;
+  padding: 20px;
+  /* background: rgb(99, 175, 99); */
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 8px;
+  background-color: rgb(97, 89, 89);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active {
+  background-color: #df6514;
+  height: 17px;
+  width: 17px;
+}
+.dot:hover {
+  background-color: #ccc;
+}
+
+
+/* Add an italic font style to all quotes */
+ .image {
+  text-align: left;
+  width: 100%;
+  height: auto;
+}
+
+/* Add a blue color to the author */
+ /* .author {
+  font-size: 5vw;
+  color: green;
+  text-align: right;
+}   */
+
+/* @media only screen and (min-width: 1000px) {
+  .mySlides {
+    padding: 0 10rem;
+  }
+} */
 

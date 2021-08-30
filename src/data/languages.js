@@ -9,7 +9,7 @@ const languages = [
   },
   {
     language: "JavaScript",
-    icon: "https://p.kindpng.com/picc/s/171-1718034_logo-de-java-script-hd-png-download.png",
+    icon: "https://icon-library.com/images/javascript-icon-png/javascript-icon-png-13.jpg",
   },
   {
     language: "React",
@@ -21,7 +21,7 @@ const languages = [
   },
   {
     language: "Express",
-    icon: "https://miro.medium.com/max/800/1*Dno6e7KS5HcdGybg9A0onQ.png",
+    icon: "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
   },
   {
     language: "PostgreSQL",

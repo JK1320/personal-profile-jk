@@ -5,7 +5,7 @@ import quotes from './data/quotes';
 function Header({triggerHome, triggerLanguages, triggerProjects}) {
 const [currentQuote, setCurrentQuote] = useState("");
 
-const time = 3000;  
+const time = 20000;  
 useEffect(() => {
   setInterval(() => {
    setCurrentQuote(() => quotes[Math.floor(Math.random() * quotes.length)]);
@@ -17,8 +17,8 @@ useEffect(() => {
     return (
       <div className="header">
         <div className="quotes">
-          <p>"{currentQuote.quote && currentQuote.quote}"</p>
-          <p>-{currentQuote.author && currentQuote.author}</p>
+          <p>{currentQuote.quote && currentQuote.quote}</p>
+          <p>{currentQuote.author && currentQuote.author}</p>
         </div>
         <div className="btn-nav">
           <button onClick={triggerHome}>Home</button>
