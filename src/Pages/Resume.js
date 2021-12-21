@@ -1,5 +1,7 @@
 import React from 'react';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
+import ScrollToTop from '../components/ScrollToTop';
 
 const Resume = () => {
     return (
@@ -87,6 +89,13 @@ const Resume = () => {
           <div className="career-summary">
             <h4>Career Summary and Experiences</h4>
             <div>
+              <h6>Hackathon</h6>
+              <p>Capgemini | CodeYourFuture | September 2021 - October 2021</p>
+              <li>Homework Club — Full Stack Project</li>
+              <p>Took part in Capgemini Hackathon program. I was mainly responsible for the front end aspects of the app but also took part in the discussions about design, creating database and end points.</p>
+              <p>Our team meetings were held twice a week.</p>
+            </div>
+            <div>
               <h6>Full Stack web developer - trainee</h6>
               <p>
                 Code Your Future, West Midlands | September 2020 - July 2021
@@ -142,6 +151,8 @@ const Resume = () => {
             </div>
           </div>
         </div>
+        <Footer />
+        <ScrollToTop />
       </div>
     );
 }
