@@ -11,8 +11,7 @@ const Home = () => {
           <div className="heading">
             <h1>Jasvir Kaur</h1>
             <h4>
-              Recent graduate Full Stack Web Developer who is looking for a
-              first opportunity to work as a Junior Software Developer
+              Full Stack Web Developer 
             </h4>
           </div>
         </div>
