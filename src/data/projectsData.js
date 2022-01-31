@@ -22,6 +22,14 @@ let projectsData = [
     github: "https://github.com/JK1320/job-listings-react",
     info: "hello",
   },
+
+  {
+    project: "Knowledge Checklist",
+    image: "./projectsImages/KnowledgeChecklist.jpg",
+    link: "cyf-knowledge-checklists.herokuapp.com/",
+    github: "https://github.com/aaokunade/Cyf-Knowledge-CheckList",
+    info: "This was the final project completed in a team of four.",
+  },
 ];
 
  export default projectsData;
