@@ -9,7 +9,7 @@ const softSkills = [
   },
   {
     skill: "Presentation",
-    icon: "https://www.sylviacohencommunication.com/wp-content/uploads/2015/02/presentation-skills2.png",
+    icon: "https://cdn.iconscout.com/icon/free/png-256/presentation-skill-2515050-2104086.png",
   },
   {
     skill: " Leadership",
