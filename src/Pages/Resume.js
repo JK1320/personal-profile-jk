@@ -26,6 +26,8 @@ const Resume = () => {
                 <li>HTML/CSS</li>
                 <li>JavaScript</li>
                 <li>React</li>
+                <li>Material UI</li>
+                <li>Styled Components</li>
                 <li>nodejs</li>
                 <li>Express</li>
                 <li>PostgreSQL</li>
@@ -92,7 +94,12 @@ const Resume = () => {
               <h6>Hackathon</h6>
               <p>Capgemini | CodeYourFuture | September 2021 - October 2021</p>
               <li>Homework Club — Full Stack Project</li>
-              <p>Took part in Capgemini Hackathon program. I was mainly responsible for the front end aspects of the app but also took part in the discussions about design, creating database and end points.</p>
+              <p>
+                Took part in Capgemini Hackathon program. I was mainly
+                responsible for the front end aspects of the app but also took
+                part in the discussions about design, creating database and end
+                points.
+              </p>
               <p>Our team meetings were held twice a week.</p>
             </div>
             <div>
