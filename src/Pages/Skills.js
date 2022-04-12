@@ -1,14 +1,14 @@
 import React from 'react';
-import Header from '../components/Header';
+// import Header from '../components/Header';
 import techSkills from '../data/techSkills';
 import softSkills from '../data/softSkills';
-import Footer from '../components/Footer';
+// import Footer from '../components/Footer';
 
 
 const Skills = () => {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <section className="tech-skills-section">
         <h3 className="tech-heading">Tech Skills:</h3>
         <div className="languages">
@@ -31,7 +31,7 @@ const Skills = () => {
           ))}
         </div>
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
