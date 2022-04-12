@@ -54,10 +54,6 @@ body {
   border: 2px solid rgb(61, 9, 112);
 }
 
-.live-link {
-  margin: 15%;
-  
-}
 
 /* home */
 .home-intro {
@@ -191,47 +187,57 @@ p {
 
 /* Projects page */
 .projects {
-  margin: 5%;
+  margin: 10%;
 }
 
 .projects-main {
   display: flex;
+  margin-bottom: 8%;
 }
 
 .project-info {
+  flex: 1;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column;
+  margin-left: 2%;
 }
 
-.project-container {
-  width: 30%;
-  /* display: flex;
-  flex-direction: column; */
-  margin: 5%;
-  text-align: center;
+.project-img-box {
+  flex: 1;
   box-shadow: 0 0 5px 5px rgb(189, 188, 188);
+  height: 100%;
 }
 
- .project-links {
+.project-info h2 {
+  flex: 1;
+  color: rgb(49, 2, 2);
+  text-align: center;
+  text-decoration: underline;
+}
+
+.project-info p {
+  flex: 4;
+  font-size: 1.1rem;
+}
+
+.live-link {
+  flex: 1;
   display: flex;
   justify-content: space-around;
-  font-size: 2rem;
-  background-color: rgb(59, 57, 57);
+  font-size: 1.3rem;
+  font-weight: 700;
   width: 100%;
-  margin: auto;
-} 
+}
 
 .live-link a {
   text-decoration: none;
-  color: rgb(133, 108, 71);
-  font-size: 1.2rem;
-  margin-right: 5%;
+  color: rgb(49, 2, 2);
 }
 
 .live-link a:hover {
   color: rgb(128, 65, 3);
-  text-decoration: underline;
 }
 
 h3 {
