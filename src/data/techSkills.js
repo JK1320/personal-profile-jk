@@ -16,6 +16,14 @@ const techSkills = [
     icon: "https://mildaintrainings.com/wp-content/uploads/2017/11/react-logo.png",
   },
   {
+    language: "Material-UI",
+    icon: "https://pngimage.net/wp-content/uploads/2019/05/icon-png-logo-2.png",
+  },
+  {
+    language: "Styled Components",
+    icon: "https://richarddshin.gallerycdn.vsassets.io/extensions/richarddshin/styled-components-snippets/0.9.6/1603140388668/Microsoft.VisualStudio.Services.Icons.Default",
+  },
+  {
     language: "Node",
     icon: "https://cdn-icons-png.flaticon.com/512/919/919825.png",
   },
@@ -26,6 +34,10 @@ const techSkills = [
   {
     language: "PostgreSQL",
     icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png",
+  },
+  {
+    language: "EmailJS",
+    icon: "https://www.emailjs.com/logo.png",
   },
 ];
 
