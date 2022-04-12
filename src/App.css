@@ -70,10 +70,6 @@ body {
   padding: 10%;
 }
 
-/* .heading:hover {
-  color: rgb(129, 145, 233);
-} */
-
 .btn-nav {
   width: 35%;
   text-align: center;
@@ -142,9 +138,9 @@ body {
 } */
 
 .container-tech-skills {
-  border: 2px solid green;
-  width: 25%;
-  margin: 3%;
+  /* border: 2px solid green; */
+  width: 15%;
+  margin: 2%;
   transition: all 3s ease-in-out;
 }
 
@@ -173,17 +169,6 @@ img {
 p {
   font-size: 20px;
 }
-
-/* .projects:hover {
-  background-color:rgb(146, 240, 243);
-  color: rgb(147, 14, 180);
-} */
-
-/* .cards {
-  border: 2px solid white; 
-  background-color: rgb(128, 120, 120);
-  margin: 2%;
-} */
 
 /* Projects page */
 .projects {
