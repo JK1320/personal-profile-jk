@@ -111,9 +111,9 @@ body {
 }
 
 .soft-skills-div {
-  border: 2px solid blue;
-  width: 25%;
-  margin: 3%;
+  /* border: 2px solid blue; */
+  width: 15%;
+  margin: 2%;
   transition: all 3s ease-in-out;
 }
 
@@ -127,13 +127,15 @@ body {
 
 /* .skill-img:hover {
   display: none;
-}
+} */
 
 .skill-name {
-  display: none;
+  font-size: 1rem;
+  text-align: center;
+  /* display: none; */
 }
 
-.skill-name:hover {
+/* .skill-name:hover {
   display: inline;
 } */
 
