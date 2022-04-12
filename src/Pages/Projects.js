@@ -1,6 +1,6 @@
 import React from "react";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+// import Footer from "../components/Footer";
+// import Header from "../components/Header";
 import projectsData from "../data/projectsData";
 
 
@@ -8,7 +8,7 @@ function Projects() {
 
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <div className="projects">
         {projectsData.map((project, index) => (
           <div key={index} className="projects-main">
@@ -26,9 +26,21 @@ function Projects() {
                 neque eu enim imperdiet suscipit.
               </p>
               <div className="live-link">
-                <a href={project.link} target="_blank" rel="noReferrer">
-                  Live Link
-                </a>
+                {project.link ? (
+                  <a href={project.link} target="_blank" rel="noReferrer">
+                    Live Link
+                  </a>
+                ) : (
+                  <a
+                    style={{ textDecoration: "line-through", cursor: "default", color: "grey"}}
+                    href="{project.link}"
+                    target=""
+                    rel="noReferrer"
+                  >
+                    Live Link
+                  </a>
+                )}
+
                 <a href={project.github} target="_blank" rel="noReferrer">
                   github
                 </a>
@@ -37,7 +49,7 @@ function Projects() {
           </div>
         ))}
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
