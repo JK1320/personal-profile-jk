@@ -11,10 +11,20 @@ function Projects() {
       <Header />
       <div className="projects">
         {projectsData.map((project, index) => (
-          <div className="projects-main">
-            <div className="project-container">
-              <h1>{project.project}</h1>
+          <div key={index} className="projects-main">
+            <div className="project-img-box">
               <img src={project.image} alt="project information" />
+            </div>
+            <div className="project-info">
+              <h2>{project.project}</h2>
+              {/* <p>{project.info}</p> */}
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                commodo sed mi non fringilla. Nulla aliquam neque eu enim
+                imperdiet suscipit.Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Sed commodo sed mi non fringilla. Nulla aliquam
+                neque eu enim imperdiet suscipit.
+              </p>
               <div className="live-link">
                 <a href={project.link} target="_blank" rel="noReferrer">
                   Live Link
@@ -23,9 +33,6 @@ function Projects() {
                   github
                 </a>
               </div>
-            </div>
-            <div className="project-info">
-              <p>{project.info}</p>
             </div>
           </div>
         ))}
