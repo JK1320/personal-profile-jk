@@ -193,6 +193,7 @@ p {
 .projects-main {
   display: flex;
   margin-bottom: 8%;
+  border-bottom: 2px solid rgb(49, 2, 2);
 }
 
 .project-info {
