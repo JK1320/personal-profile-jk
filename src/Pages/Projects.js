@@ -8,6 +8,7 @@ function Projects() {
 
   return (
     <div>
+      <h3>Projects:</h3>
       {/* <Header /> */}
       <div className="projects">
         {projectsData.map((project, index) => (
