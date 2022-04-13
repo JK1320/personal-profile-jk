@@ -34,6 +34,7 @@ const Resume = () => {
                 <li>Git/Github</li>
                 <li>Netlify</li>
                 <li>Heroku</li>
+                <li>EmailJS</li>
               </ul>
             </section>
             <section>
