@@ -3,8 +3,8 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import './App.css';
 import Resume from "./Pages/Resume";
 import Home from "./Pages/Home"; 
-import Projects from "./Pages/Projects";
-import Skills from "./Pages/Skills";
+// import Projects from "./Pages/Projects";
+// import Skills from "./Pages/Skills";
 
 
 function App() {
@@ -19,12 +19,12 @@ function App() {
         <Route path="/resume">
           <Resume />
         </Route>
-        <Route path="/skills">
+        {/* <Route path="/skills">
           <Skills />
         </Route>
         <Route path="/projects">
           <Projects />
-        </Route>
+        </Route> */}
       </Switch>
     </BrowserRouter>
   );
