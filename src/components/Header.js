@@ -30,12 +30,12 @@ useEffect(() => {
             <Link className="link" to="/resume">
               Resume
             </Link>
-            <Link className="link" to="/skills">
+            {/* <Link className="link" to="/skills">
               Skills
             </Link>
             <Link className="link" to="/projects">
               Projects
-            </Link>
+            </Link> */}
           </div>
       </div>
     );
