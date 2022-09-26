@@ -1,0 +1,40 @@
+.projects {
+    margin: 5%;
+}
+
+.projects-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10%;
+    /* border-bottom: 2px solid rgb(49, 2, 2); */
+    box-shadow: 0 0 5px 5px rgb(189, 188, 188);
+    border-radius: 1rem;
+    height: 55vh;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.project-img-box {
+    display: flex;
+    height: 100%;
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-info h2 {
+    flex: 1;
+    color: rgb(49, 2, 2);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.project-info p {
+    flex: 4;
+    font-size: 1.1rem;
+}
