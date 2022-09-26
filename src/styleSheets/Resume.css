@@ -1,0 +1,39 @@
+.resume-header {
+    text-align: center;
+    margin: 5%;
+}
+
+.div-resume {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div-resume h4 {
+    text-decoration: underline;
+    color: rgb(48, 2, 2);
+}
+
+.resume-link {
+    color: antiquewhite;
+}
+
+.resume-link:hover {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.skills-contact {
+    background-color: rgb(5, 5, 199);
+    color: antiquewhite;
+    width: 30%;
+    margin: 2%;
+}
+
+.career-summary {
+    width: 50%;
+}
+
+.career-summary div {
+    margin-bottom: 15%;
+    border-bottom: 5px solid black;
+}

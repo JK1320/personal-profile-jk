@@ -1,0 +1,58 @@
+.soft-skills-div {
+    /* border: 2px solid blue; */
+    width: 15%;
+    margin: 2%;
+    transition: all 3s ease-in-out;
+}
+
+.soft-skills-div:hover {
+    transform: rotateY(-180deg);
+}
+
+.languages {
+    margin: auto;
+    width: 70%;
+    /* border: 5px solid blue; */
+    /* background-color: cadetblue; */
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skills {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-name {
+    font-size: 1rem;
+    text-align: center;
+    /* display: none; */
+}
+
+/* .skill-name:hover {
+  display: inline;
+} */
+
+.container-tech-skills {
+    /* border: 2px solid green; */
+    width: 15%;
+    margin: 2%;
+    transition: all 3s ease-in-out;
+}
+
+.container-tech-skills:hover {
+    transform: rotateY(.5turn);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}
