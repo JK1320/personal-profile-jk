@@ -1,0 +1,23 @@
+.footer {
+    background-color: rgb(82, 91, 102);
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0.3rem;
+}
+
+.footer ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+
+}
+
+.footer-link {
+    margin-right: 2rem;
+    color: aliceblue;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: rgb(39, 1, 1);
+}
