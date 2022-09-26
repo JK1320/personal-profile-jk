@@ -1,6 +1,4 @@
-// import {useState} from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import './App.css';
 import Resume from "./Pages/Resume";
 import Home from "./Pages/Home"; 
 // import Projects from "./Pages/Projects";
