@@ -1,12 +1,16 @@
 import React from 'react';
 import Footer from '../components/Footer';
-import Header from '../components/Header';
+//import Header from '../components/Navbar';
 import ScrollToTop from '../components/ScrollToTop';
+import { Link } from "react-router-dom";
+import "../styleSheets/Resume.css";
 
 const Resume = () => {
     return (
       <div>
-        <Header />
+        <Link className="link" to="/">
+          Home
+        </Link>
         <header className="resume-header">
           <h1>Jasvir Kaur</h1>
           <h2>always eager to learn more</h2>
