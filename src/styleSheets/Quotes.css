@@ -1,5 +1,6 @@
 .container-quotes {
-background-color: red;
+background-color: teal;
+color: white;
 border-bottom: 2px solid black;
 height: 14vh;
 }
@@ -12,24 +13,24 @@ height: 14vh;
     justify-content: center;
 }
 
-p{
+.quotes p{
     font-size: 0.9rem;
     font-weight: 600;
 }
 
-p::before {
+.quotes p::before {
     content: open-quote;
 }
 
-p::after {
+.quotes p::after {
     content: close-quote;
 }
 
-h5 {
+.quotes .h5 {
     font-size: 0.9rem;
     font-weight: 600;
 }
 
-h5::before {
+.quotes h5::before {
     content: "-";
 }
