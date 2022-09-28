@@ -38,3 +38,16 @@
     flex: 4;
     font-size: 1.1rem;
 }
+
+.live-link a {
+    padding: 2%;
+    margin: 2%;
+    border: 1px solid rgb(180, 173, 173);
+    text-decoration: none;
+    color: rgb(166, 160, 160);
+}
+
+.live-link a:hover {
+    background-color: darkkhaki;
+    color: darkblue;
+}
