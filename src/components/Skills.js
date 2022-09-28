@@ -7,31 +7,33 @@ import softSkills from '../data/softSkills';
 
 const Skills = () => {
   return (
-    <div>
-      
-      <section className="tech-skills-section">
-        <h3 className="tech-heading">Tech Skills:</h3>
-        <div className="languages">
+    <div className="skills-container">
+      <section className="skills-section">
+        <h3>Tech Skills:</h3>
+        <div className="skills-card">
           {techSkills.map((language, index) => (
-            <div className="container-tech-skills" key={index}>
+            <div key={index}>
               {/* <h3>{language.language}</h3> */}
-              <img src={language.icon} alt="icons" />
+              <div className="skills-container">
+                <img src={language.icon} alt="icons" />
+              </div>
             </div>
           ))}
         </div>
       </section>
-      <section className="soft-skills-section">
+      <section className="skills-section">
         <h3>Soft Skills:</h3>
-        <div className="skills">
+        <div className="skills-card">
           {softSkills.map((skill, index) => (
-            <div className="soft-skills-div" key={index}>
-              <img className="skill-img" src={skill.icon} alt="skill" />
-              <h4 className="skill-name">{skill.skill}</h4>
+            <div key={index}>
+              <div className="skills-container">
+              <img src={skill.icon} alt="skill" />
+              <p>{skill.skill}</p>
+              </div>
             </div>
           ))}
         </div>
       </section>
-    
     </div>
   );
 };
