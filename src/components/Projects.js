@@ -41,7 +41,7 @@ function Projects() {
                 )}
 
                 <a href={project.github} target="_blank" rel="noReferrer">
-                  github
+                  Github
                 </a>
               </div>
             </div>
