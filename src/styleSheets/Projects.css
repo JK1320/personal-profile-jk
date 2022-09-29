@@ -27,6 +27,10 @@
     align-items: center;
 }
 
+.project-img-box img{
+    width: 100%;
+}
+
 .project-info h2 {
     flex: 1;
     color: rgb(49, 2, 2);
