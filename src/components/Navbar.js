@@ -4,8 +4,7 @@ import "../styleSheets/Navbar.css";
 
 
 function Navbar() {
-
-  
+    
 
     return (
       <div className="container-navbar">
@@ -27,9 +26,11 @@ function Navbar() {
           </div>
         </div>
         <div className="btn-nav">
-          <Link className="link" to="/resume">
-            Resume
-          </Link>
+        
+            <Link className="link" to="/resume">
+              Resume
+            </Link>
+         
         </div>
       </div>
     );
