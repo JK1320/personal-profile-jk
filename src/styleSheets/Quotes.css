@@ -33,3 +33,9 @@ height: 14vh;
 .quotes h5::before {
     content: "-";
 }
+
+@media only screen and(max-width: 375px) {
+    .quotes {
+           display: none;
+        }
+}
