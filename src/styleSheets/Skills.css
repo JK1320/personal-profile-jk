@@ -1,17 +1,18 @@
 .skills-container{
-margin: 5% 0;
-display: flex;
-flex-direction: column;
-align-items: center;
+/* display: flex;
+flex-direction: column; */
+/* align-items: center;
+justify-content: center; */
 }
 
  h3 {
      text-align: center;
+     font-weight: 600;
      text-decoration: underline;
  }
 
 .skills-container {
-    width: 40%;
+    
     margin: 2%;
     transition: all 3s ease-in-out;
 }
@@ -25,15 +26,15 @@ align-items: center;
 }
 
 .skills-card {
-    width: 80%;
-    margin: auto;
+    width: 80%; 
+   margin: auto;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 }
 
-img {
-    width: 100%;
+.skills-card img {
+    width: 10%;
     height: auto;
 }
 
