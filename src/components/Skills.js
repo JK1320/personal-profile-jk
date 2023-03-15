@@ -7,16 +7,13 @@ import softSkills from '../data/softSkills';
 
 const Skills = () => {
   return (
-    <div className="skills-container">
+    <div className="skills">
       <section className="skills-section">
         <h3>Tech Skills:</h3>
         <div className="skills-card">
           {techSkills.map((language, index) => (
-            <div key={index}>
-              {/* <h3>{language.language}</h3> */}
-              <div className="skills-container">
-                <img src={language.icon} alt="icons" />
-              </div>
+            <div key={index} className="skills-container">
+              <img src={language.icon} alt="icons" />
             </div>
           ))}
         </div>
@@ -25,11 +22,11 @@ const Skills = () => {
         <h3>Soft Skills:</h3>
         <div className="skills-card">
           {softSkills.map((skill, index) => (
-            <div key={index}>
-              <div className="skills-container">
-              <img src={skill.icon} alt="skill" />
-              <p>{skill.skill}</p>
-              </div>
+           
+              <div key={index} className="skills-container">
+                <img src={skill.icon} alt="skill" />
+                <p>{skill.skill}</p>
+             
             </div>
           ))}
         </div>
