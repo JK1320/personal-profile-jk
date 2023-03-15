@@ -3,6 +3,19 @@
     margin: 5%;
 }
 
+.link-home {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 2rem 0 0 2rem;
+    color: #58589c;
+}
+
+.link-home:hover {
+    text-decoration: none;
+    color: #0404bc;
+}
+
 .div-resume {
     display: flex;
     justify-content: space-evenly;
