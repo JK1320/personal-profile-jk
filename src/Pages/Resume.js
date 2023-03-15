@@ -8,7 +8,7 @@ import "../styleSheets/Resume.css";
 const Resume = () => {
     return (
       <div>
-        <Link className="link" to="/">
+        <Link className="link-home" to="/">
           Home
         </Link>
         <header className="resume-header">
