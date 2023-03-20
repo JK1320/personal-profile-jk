@@ -8,7 +8,7 @@ function Navbar() {
 
     return (
       <div className="container-navbar">
-        <div class="info-nav">
+        <div className="info-nav">
           <div className="heading">
             <h1>Jasvir Kaur</h1>
             <h4>Junior Full Stack Web Developer</h4>
