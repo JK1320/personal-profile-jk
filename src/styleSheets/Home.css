@@ -1,0 +1,60 @@
+.home {
+    margin: 2% 5% 2% 5%;
+    height: 95vh;
+    width: auto;
+}
+
+.home-about {
+    display: flex;
+    margin: 8rem 0 8rem 0;
+}
+
+.home-about--img img {
+    height: 80vh;
+    width: 45vw;
+    border-radius: 50%;
+}
+
+.home-about--img {
+flex: 1;
+
+}
+
+.home-about--me {
+flex: 1;
+padding: 4rem;
+}
+
+.home-about-links {
+    margin-top: 5rem;
+}
+
+.link-about {
+    display: inline-block;
+    padding: 2%;
+    color: black;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 2rem;
+    height: 10vh;
+    width: auto;
+}
+
+.link-about-1 {
+    background-color: #e9be69;
+}
+
+.link-about-2 {
+    background-color: rgb(231, 122, 122);
+}
+
+.link-about-3 {
+    background-color: rgb(163, 215, 234);
+}
+
+.link-about:hover {
+text-decoration: none;
+color: black;
+background-color: white;
+}
