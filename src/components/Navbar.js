@@ -9,25 +9,27 @@ function Navbar() {
     return (
       <div className="container-navbar">
         <div className="info-nav">
-          <div className="heading">
-            <h1>Jasvir Kaur</h1>
-            <h4>Junior Full Stack Web Developer</h4>
+          <div className="navbar-heading">
+            <div className="navbar-circle"></div>
+            <div>
+              <h1 className="navbar-h1">Jasvir Kaur</h1>
+              <h4>Entry Level Web Developer</h4>
+            </div>
           </div>
-          <div className="about">
-            <p>
-              I joined CodeYourFuture in 2020 and took a great opportunity to
-              become a Full Stack Web Developer. I learned HTML/CSS,
-              JavaScript(React), Node.js and PostgreSQL. Since graduating I have
-              created few projects for learning on Styled Components,
-              Material-UI and MongoDB. I have recently joined CodeYourFuture
-              Product Dev Team.
-            </p>
+          <div className="navbar-links">
+            <Link className="link link-1" to="/resume">
+              Resume
+            </Link>
+            <Link className="link link-2" to="/resume">
+              Projects
+            </Link>
+            <Link className="link link-3" to="/resume">
+              Contact
+            </Link>
           </div>
         </div>
         <div className="btn-nav">
-          <Link className="link" to="/resume">
-            CV
-          </Link>
+         
         </div>
       </div>
     );
