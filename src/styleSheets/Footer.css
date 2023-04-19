@@ -1,12 +1,13 @@
 .footer {
     border-top: 2px solid gray;
     padding-bottom: 5%;
+    padding-top: 2%;
 }
 
 .footer ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: end;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
     font-size: 1.5rem;
     font-weight: 700;
     list-style-type: none;
