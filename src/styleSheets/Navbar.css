@@ -18,6 +18,15 @@
     margin-right: 1rem;
  }
 
+ .navbar-h1 {
+   color: black;
+ }
+
+  .navbar-h1:hover {
+     color: black;
+     text-decoration: none;
+  }
+
  .link {
     padding: 4%;
     color: black;
