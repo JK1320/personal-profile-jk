@@ -1,52 +1,45 @@
-.resume-header {
-    text-align: center;
-    margin: 5%;
+.resume {
+    width: 95vw;
 }
 
-.link-home {
-    font-size: 2rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding: 2rem 0 0 2rem;
-    color: #58589c;
-}
-
-.link-home:hover {
-    text-decoration: none;
-    color: #0404bc;
-}
-
-.div-resume {
+.skills {
     display: flex;
-    justify-content: space-evenly;
+    margin: auto;
+    width: 50vw;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.div-resume h4 {
+.skill-section {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+    padding: 2%;
+    border-radius: .3rem;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.skill-section h4 {
+    text-align: center;
     text-decoration: underline;
-    color: rgb(48, 2, 2);
 }
 
-.resume-link {
-    color: antiquewhite;
+.skills-list {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   list-style-type: none;
+   font-weight: 600;
+   gap: 5% 
 }
 
-.resume-link:hover {
-    text-decoration: none;
-    color: antiquewhite;
-}
+/* .skills-list li {
+    margin-right: 5rem;
+} */
 
-.skills-contact {
-    background-color: rgb(5, 5, 199);
-    color: antiquewhite;
-    width: 30%;
-    margin: 2%;
-}
 
-.career-summary {
-    width: 50%;
-}
 
-.career-summary div {
-    margin-bottom: 15%;
-    border-bottom: 5px solid black;
-}
+
+
+
+
+
