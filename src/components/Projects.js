@@ -2,6 +2,7 @@ import React from "react";
 import projectsData from "../data/projectsData";
 import "../styleSheets/Projects.css";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 function Projects() {
 
@@ -50,7 +51,7 @@ function Projects() {
           </div>
         ))}
       </div>
-     
+     <Footer />
     </div>
   );
 }
