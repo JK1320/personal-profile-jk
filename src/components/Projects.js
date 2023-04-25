@@ -1,11 +1,13 @@
 import React from "react";
 import projectsData from "../data/projectsData";
 import "../styleSheets/Projects.css";
+import Navbar from "./Navbar";
 
 function Projects() {
 
   return (
     <div>
+      <Navbar />
       <h3>Projects:</h3>
       
       <div className="projects">
