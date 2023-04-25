@@ -12,7 +12,10 @@ function Navbar() {
           <div className="navbar-heading">
             <div className="navbar-circle"></div>
             <div>
-              <h1 className="navbar-h1">Jasvir Kaur</h1>
+              <Link className="navbar-h1-link" to="/">
+                <h1 className="navbar-h1">Jasvir Kaur</h1>
+              </Link>
+
               <h4>Entry Level Web Developer</h4>
             </div>
           </div>
@@ -20,7 +23,7 @@ function Navbar() {
             <Link className="link link-1" to="/resume">
               Resume
             </Link>
-            <Link className="link link-2" to="/resume">
+            <Link className="link link-2" to="/projects">
               Projects
             </Link>
             <Link className="link link-3" to="/resume">
@@ -28,9 +31,7 @@ function Navbar() {
             </Link>
           </div>
         </div>
-        <div className="btn-nav">
-         
-        </div>
+        <div className="btn-nav"></div>
       </div>
     );
 }
