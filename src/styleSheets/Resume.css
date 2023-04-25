@@ -2,7 +2,7 @@
     width: 95vw;
 }
 
-.skills {
+.skills, .career-summary {
     display: flex;
     margin: auto;
     width: 50vw;
@@ -10,18 +10,19 @@
     justify-content: center;
 }
 
-.skill-section {
+.skill-section, .career-summary-list {
     width: 100%;
     height: auto;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
     padding: 2%;
     border-radius: .3rem;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
-.skill-section h4 {
+.skill-section h4, .career-summary h4 {
     text-align: center;
     text-decoration: underline;
+    padding-bottom: 1rem;
 }
 
 .skills-list {
@@ -32,9 +33,9 @@
    gap: 5% 
 }
 
-/* .skills-list li {
-    margin-right: 5rem;
-} */
+.career-summary h6 {
+    font-weight: bold;
+}
 
 
 
