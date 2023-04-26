@@ -3,13 +3,14 @@ import projectsData from "../data/projectsData";
 import "../styleSheets/Projects.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import ScrollToTop from "./ScrollToTop";
 
 function Projects() {
 
   return (
     <div>
       <Navbar />
-      <h3>Projects:</h3>
+      {/* <h3>Projects:</h3> */}
       
       <div className="projects">
         {projectsData.map((project, index) => (
@@ -18,7 +19,7 @@ function Projects() {
               <img src={project.image} alt="project information" />
             </div>
             <div className="project-info">
-              <h2>{project.project}</h2>
+              <h4>{project.project}</h4>
               {/* <p>{project.info}</p> */}
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
@@ -52,6 +53,7 @@ function Projects() {
         ))}
       </div>
      <Footer />
+     <ScrollToTop />
     </div>
   );
 }
