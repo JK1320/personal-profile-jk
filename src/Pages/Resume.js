@@ -1,32 +1,22 @@
 import React from 'react';
 import Footer from '../components/Footer';
-//import Header from '../components/Navbar';
+import Header from '../components/Navbar';
 import ScrollToTop from '../components/ScrollToTop';
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import "../styleSheets/Resume.css";
 
 const Resume = () => {
     return (
       <div>
-        <Link className="link-home" to="/">
+        <Header />
+        {/* <Link className="link-home" to="/">
           Home
-        </Link>
-        <header className="resume-header">
-          <h1>Jasvir Kaur</h1>
-          <h2>always eager to learn more</h2>
-          <p>
-            Armed with understanding of designing, developing and deploying full
-            stack web applications. Quick learner of new technologies,
-            successful working in both team and self-directed settings. Looking
-            for a full stack developer role that will allow me to utilise my
-            newly learned skills and has potential for growth.
-          </p>
-        </header>
-        <div className="div-resume">
-          <div className="skills-contact">
-            <section>
+        </Link> */}
+        <div className="resume">
+          <div className="skills">
+            <section className="skill-section tech-skills">
               <h4>Tech Skills</h4>
-              <ul>
+              <ul className="skills-list">
                 <li>HTML/CSS</li>
                 <li>JavaScript</li>
                 <li>React</li>
@@ -41,9 +31,9 @@ const Resume = () => {
                 <li>EmailJS</li>
               </ul>
             </section>
-            <section>
+            <section className="skill-section">
               <h4>Soft Skills</h4>
-              <ul>
+              <ul className="skills-list">
                 <li>Team-work</li>
                 <li>Presentation</li>
                 <li>Communication</li>
@@ -52,7 +42,7 @@ const Resume = () => {
                 <li>Time Management</li>
               </ul>
             </section>
-            <section>
+            {/*<section>
               <h4>Contact Information</h4>
               <ul>
                 <li>Phone: 07803702899</li>
@@ -77,9 +67,9 @@ const Resume = () => {
                     LinkedIn
                   </a>
                 </li>
-              </ul>
-            </section>
-            <section>
+              </ul> 
+            </section>*/}
+            <section className="skill-section">
               <h4>Interests</h4>
               <ul>
                 <li>
@@ -95,7 +85,7 @@ const Resume = () => {
           </div>
           <div className="career-summary">
             <h4>Career Summary and Experiences</h4>
-            <div>
+            <div className="career-summary-list">
               <h6>Hackathon</h6>
               <p>Capgemini | CodeYourFuture | September 2021 - October 2021</p>
               <li>Homework Club — Full Stack Project</li>
@@ -107,7 +97,7 @@ const Resume = () => {
               </p>
               <p>Our team meetings were held twice a week.</p>
             </div>
-            <div>
+            <div className="career-summary-list">
               <h6>Full Stack web developer - trainee</h6>
               <p>
                 Code Your Future, West Midlands | September 2020 - July 2021
@@ -128,7 +118,7 @@ const Resume = () => {
                 were individual projects.
               </p>
             </div>
-            <div>
+            <div className="career-summary-list">
               <h6>Customer Liaison Officer/Cashier</h6>
               <p>Vaultex UK Ltd, Birmingham | December 2004 - May 2019</p>
               <li>
@@ -147,14 +137,14 @@ const Resume = () => {
                 Maintained query records through the QMS system and error logs
               </li>
             </div>
-            <div>
+            <div className="career-summary-list">
               <p>McGrath Immigration, Birmingham</p>
               <li>Attended clients’s meetings and took notes</li>
               <li>Researched relevant law</li>
               <li>Drafted legal documents and letters to clients</li>
               <li>Proofread legal documents</li>
             </div>
-            <div>
+            <div className="career-summary-list">
               <p>Birmingham Law Centre, Small Heath</p>
               <li>Observed clients’ interviews</li>
               <li>Drafted letters to clients and parties involved</li>
