@@ -1,8 +1,9 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Resume from "./Pages/Resume";
 import Home from "./Pages/Home"; 
-// import Projects from "./Pages/Projects";
-// import Skills from "./Pages/Skills";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+//import Skills from "./Pages/Skills";
 
 
 function App() {
@@ -17,12 +18,15 @@ function App() {
         <Route path="/resume">
           <Resume />
         </Route>
-        {/* <Route path="/skills">
-          <Skills />
-        </Route>
         <Route path="/projects">
           <Projects />
-        </Route> */}
+        </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
+        {/* <Route path="/skills">
+          <Skills />
+       </Route> */}
       </Switch>
     </BrowserRouter>
   );
