@@ -7,12 +7,12 @@ import "../styleSheets/Resume.css";
 
 const Resume = () => {
     return (
-      <div>
+      <div className="resume">
         <Header />
         {/* <Link className="link-home" to="/">
           Home
         </Link> */}
-        <div className="resume">
+        <div>
           <div className="skills">
             <section className="skill-section tech-skills">
               <h4>Tech Skills</h4>
