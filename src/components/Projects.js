@@ -8,11 +8,11 @@ import ScrollToTop from "./ScrollToTop";
 function Projects() {
 
   return (
-    <div>
+    <div className="projects">
       <Navbar />
       {/* <h3>Projects:</h3> */}
-      
-      <div className="projects">
+
+      <div className="projects-container">
         {projectsData.map((project, index) => (
           <div key={index} className="projects-main">
             <div className="project-img-box">
@@ -35,7 +35,11 @@ function Projects() {
                   </a>
                 ) : (
                   <a
-                    style={{ textDecoration: "line-through", cursor: "default", color: "grey"}}
+                    style={{
+                      textDecoration: "line-through",
+                      cursor: "default",
+                      color: "grey",
+                    }}
                     href="{project.link}"
                     target=""
                     rel="noReferrer"
@@ -52,8 +56,8 @@ function Projects() {
           </div>
         ))}
       </div>
-     <Footer />
-     <ScrollToTop />
+      <Footer />
+      <ScrollToTop />
     </div>
   );
 }
