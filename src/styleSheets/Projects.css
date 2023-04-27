@@ -22,7 +22,12 @@
 
  */
 
-.projects {
+ .projects {
+    width: 95%;
+    margin: 2% 5% 0 5%;
+ }
+
+.projects-container {
     display: flex;
     margin: auto;
     width: 60vw;
@@ -50,6 +55,7 @@
     display: flex;
     flex-direction: column;
     padding-left: 5%;
+    gap: 5%;
 }
 
 .live-link a {
