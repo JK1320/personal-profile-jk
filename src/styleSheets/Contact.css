@@ -1,0 +1,45 @@
+.contact {
+    width: 95%;
+    margin: 2% 5% 0 5%;
+}
+
+.contact-form {
+    width: 50%;
+    margin: 5% auto 5% auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+textarea {
+    width: 100%;
+    margin: 10px 0;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+button {
+    width: 20%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5rem;
+    border: 1px solid black;
+    background: linear-gradient(0deg, rgb(192, 195, 34) 0%, rgb(45, 215, 253) 100%);
+    text-align: center;
+    color: white;
+}
+
+button:hover {
+    background: white;
+    color: black;
+}
