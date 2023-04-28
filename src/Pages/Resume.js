@@ -2,17 +2,17 @@ import React from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Navbar';
 import ScrollToTop from '../components/ScrollToTop';
-//import { Link } from "react-router-dom";
 import "../styleSheets/Resume.css";
 
 const Resume = () => {
     return (
       <div className="resume">
         <Header />
-        {/* <Link className="link-home" to="/">
-          Home
-        </Link> */}
         <div>
+          <ul className='contact-info'>
+            <li>Phone: 07803702899</li>
+            <li>Email: kaurjus1@gmail.com</li>
+          </ul>
           <div className="skills">
             <section className="skill-section tech-skills">
               <h4>Tech Skills</h4>
@@ -42,33 +42,6 @@ const Resume = () => {
                 <li>Time Management</li>
               </ul>
             </section>
-            {/*<section>
-              <h4>Contact Information</h4>
-              <ul>
-                <li>Phone: 07803702899</li>
-                <li>Email: kaurjus1@gmail.com</li>
-                <li>
-                  <a
-                    className="resume-link"
-                    href="https://github.com/JK1320"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Github
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="resume-link"
-                    href="//www.linkedin.com/in/kaur-jus/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    LinkedIn
-                  </a>
-                </li>
-              </ul> 
-            </section>*/}
             <section className="skill-section">
               <h4>Interests</h4>
               <ul>
