@@ -29,7 +29,7 @@
 
 .projects-container {
     display: flex;
-    margin: auto;
+    margin: 5% auto 0 auto;
     width: 60vw;
     flex-direction: column;
     justify-content: center;
@@ -62,7 +62,6 @@
     padding: 2%;
     margin: 2%;
     border: 1px solid black;
-    border-radius: 50%;
     text-decoration: none;
     color: rgb(166, 160, 160);
 }
