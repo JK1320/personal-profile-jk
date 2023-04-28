@@ -32,7 +32,6 @@ button {
     font-size: 1.2rem;
     font-weight: 600;
     cursor: pointer;
-    border-radius: 5rem;
     border: 1px solid black;
     background: linear-gradient(0deg, rgb(192, 195, 34) 0%, rgb(45, 215, 253) 100%);
     text-align: center;
