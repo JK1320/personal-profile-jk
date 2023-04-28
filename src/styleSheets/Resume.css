@@ -3,6 +3,14 @@
     margin: 2% 5% 0 5%;
 }
 
+.contact-info {
+    width: 70%;
+    margin: 5% auto 5% auto;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
 .skills, .career-summary {
     display: flex;
     margin: auto;
