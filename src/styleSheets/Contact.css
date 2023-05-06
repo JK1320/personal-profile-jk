@@ -42,3 +42,27 @@ textarea {
     background: white;
     color: black;
 }
+
+@media screen and (max-width: 820px) {
+.contact-form {
+        height: 80vh;
+        width: 50vw;
+    }
+
+input {
+    width: 100%;
+    height: 100px;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 24px;
+}
+textarea {
+    font-size: 24px;
+    border: 2px solid black;
+}
+.btn {
+    width: 50%;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+}
