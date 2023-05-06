@@ -9,53 +9,11 @@ const Resume = () => {
       <div className="resume">
         <Header />
         <div>
-          <ul className='contact-info'>
+          <ul className="contact-info">
             <li>Phone: 07803702899</li>
             <li>Email: kaurjus1@gmail.com</li>
           </ul>
-          <div className="skills">
-            <section className="skill-section tech-skills">
-              <h4>Tech Skills</h4>
-              <ul className="skills-list">
-                <li>HTML/CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Material UI</li>
-                <li>Styled Components</li>
-                <li>nodejs</li>
-                <li>Express</li>
-                <li>PostgreSQL</li>
-                <li>Git/Github</li>
-                <li>Netlify</li>
-                <li>Heroku</li>
-                <li>EmailJS</li>
-              </ul>
-            </section>
-            <section className="skill-section">
-              <h4>Soft Skills</h4>
-              <ul className="skills-list">
-                <li>Team-work</li>
-                <li>Presentation</li>
-                <li>Communication</li>
-                <li>Leadership</li>
-                <li>Problem-solving</li>
-                <li>Time Management</li>
-              </ul>
-            </section>
-            <section className="skill-section">
-              <h4>Interests</h4>
-              <ul>
-                <li>
-                  Coding: creating my very first personal profile web page
-                </li>
-                <li>
-                  Socialising: with family and friends and also with like minded
-                  people who have similar interests
-                </li>
-                <li>Meditating: early mornings</li>
-              </ul>
-            </section>
-          </div>
+
           <div className="career-summary">
             <h4>Career Summary and Experiences</h4>
             <div className="career-summary-list">
@@ -124,6 +82,49 @@ const Resume = () => {
               <li>Researched relevant law</li>
               <li>Attended Priory Court observing possession order hearings</li>
             </div>
+          </div>
+          <div className="skills">
+            <section className="skill-section tech-skills">
+              <h4>Tech Skills</h4>
+              <ul className="skills-list">
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Material UI</li>
+                <li>Styled Components</li>
+                <li>nodejs</li>
+                <li>Express</li>
+                <li>PostgreSQL</li>
+                <li>Git/Github</li>
+                <li>Netlify</li>
+                <li>Heroku</li>
+                <li>EmailJS</li>
+              </ul>
+            </section>
+            <section className="skill-section">
+              <h4>Soft Skills</h4>
+              <ul className="skills-list">
+                <li>Team-work</li>
+                <li>Presentation</li>
+                <li>Communication</li>
+                <li>Leadership</li>
+                <li>Problem-solving</li>
+                <li>Time Management</li>
+              </ul>
+            </section>
+            <section className="skill-section">
+              <h4>Interests</h4>
+              <ul>
+                <li>
+                  Coding: creating my very first personal profile web page
+                </li>
+                <li>
+                  Socialising: with family and friends and also with like minded
+                  people who have similar interests
+                </li>
+                <li>Meditating: early mornings</li>
+              </ul>
+            </section>
           </div>
         </div>
         <Footer />
