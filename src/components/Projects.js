@@ -10,8 +10,6 @@ function Projects() {
   return (
     <div className="projects">
       <Navbar />
-      {/* <h3>Projects:</h3> */}
-
       <div className="projects-container">
         {projectsData.map((project, index) => (
           <div key={index} className="projects-main">
