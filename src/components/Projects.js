@@ -18,14 +18,7 @@ function Projects() {
             </div>
             <div className="project-info">
               <h4>{project.project}</h4>
-              {/* <p>{project.info}</p> */}
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                commodo sed mi non fringilla. Nulla aliquam neque eu enim
-                imperdiet suscipit.Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Sed commodo sed mi non fringilla. Nulla aliquam
-                neque eu enim imperdiet suscipit.
-              </p>
+              <p>{project.info}</p>
               <div className="live-link">
                 {project.link ? (
                   <a href={project.link} target="_blank" rel="noReferrer">
