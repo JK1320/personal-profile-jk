@@ -60,8 +60,8 @@ background-color: white;
 
 /* skills section */
 .skills {
-    width: 100%;
-    margin: 0 auto 5% auto;
+    width: 95%;
+    /* margin: 0 auto 5% auto; */
 }
 
 .skills h3 {
@@ -83,16 +83,16 @@ background-color: white;
 }
 
 .skills-container li {
-    background: linear-gradient(0deg, rgb(192, 195, 34) 0%, rgb(231, 122, 122) 50%, rgb(45, 215, 253) 100%);
     color: black;
     border: 1px solid black;
     font-size: 1.5rem;
     font-weight: 600;
     padding: .7rem;
+    cursor: pointer;
 }
 
 .skills-container li:hover {
-    background: white;
+    background: rgb(231, 223, 3);
 }
 
 @media screen and (max-width: 390px) {
@@ -111,3 +111,6 @@ background-color: white;
         width: 100%;
     }
 }
+
+
+
