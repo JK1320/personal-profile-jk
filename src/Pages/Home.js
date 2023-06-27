@@ -7,7 +7,7 @@ import softSkills from "../data/softSkills";
 import "../styleSheets/Home.css";
 import { Link } from "react-router-dom";
 
-console.log(techSkills);
+
 
 const Home = () => {
   return (
