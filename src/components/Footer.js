@@ -6,7 +6,6 @@ const Footer = () => {
     return (
       <div className="footer">
         <ul>
-          <li>07803702899</li>
           <li>kaurjus1@gmail.com</li>
           <li>
             <a
